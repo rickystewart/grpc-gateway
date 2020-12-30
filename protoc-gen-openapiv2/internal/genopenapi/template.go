@@ -24,7 +24,7 @@ import (
 	openapi_options "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
 	"google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

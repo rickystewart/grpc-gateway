@@ -15,7 +15,7 @@ import (
 	gen "github.com/grpc-ecosystem/grpc-gateway/v2/internal/generator"
 	openapi_options "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
-	"google.golang.org/protobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 

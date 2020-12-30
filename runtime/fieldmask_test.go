@@ -9,7 +9,7 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime/internal/examplepb"
 	"google.golang.org/genproto/protobuf/field_mask"
-	"google.golang.org/protobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 )
 

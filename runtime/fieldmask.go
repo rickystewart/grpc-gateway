@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"google.golang.org/genproto/protobuf/field_mask"
-	"google.golang.org/protobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
